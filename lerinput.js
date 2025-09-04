@@ -27,11 +27,13 @@ readline.question("Qual a sua idade ", (idade) => {
   } else {
     console.log("vai estudar");
   }
+  
   readline.question("Qual a sua cidade? ", (cidade) => {
   console.log("Sua cidade é ", cidade);
   
 })
 })
+
 
 
 
